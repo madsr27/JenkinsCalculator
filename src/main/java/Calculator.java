@@ -39,7 +39,15 @@ class Calculator {
     etc
      */
     int fibonacciNumberFinder(int n){
-        return 0;
+        if(n > 2) {
+            return fibonacciNumberFinder(n-1) + fibonacciNumberFinder(n-2);
+        }
+        else if(n == 0) {
+            return 0;
+        }
+        else {
+            return 1;
+        }
     }
 
 
