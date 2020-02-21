@@ -75,6 +75,5 @@ class Calculator {
 
         return n + UUID.randomUUID().toString();
     }
-
-
+    #youOnlyLiveOnce
 }
